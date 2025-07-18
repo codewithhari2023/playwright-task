@@ -1,0 +1,105 @@
+17/7/25
+what is playwirght ?
+-plaiywirght is an open source automation library created and maintained by microsoft for performing end to end testing. it allows us to automate browser (like chromium firefox,webkit)
+
+-it performs action like
+
+-navigation of web pages
+
+-clicking  button events
+
+-filling the forms
+
+-taking screenshot
+
+-perform complex testing for user.
+
+-it support single and  multipage application automation 
+
+*key feature  of playwirght
+-it multiple borwsers 
+-it supports headless and headed mode
+-auto waiting
+-parallel execution 
+-network mocking
+-visual testing 
+-Ci/cD ready
+
+*comman uses
+-Login/logout automation
+-form validation
+-UI flow validation
+-Responsive test
+-APi mock during forentend testing
+
+software pre-requsit
+-nodejs
+     node -v
+-npm
+    npm -v
+-typescript
+    tsc -v
+*Editor(vs code)
+
+commands
+
+ npx playwright test
+    Runs the end-to-end tests.
+
+  npx playwright test --ui
+    Starts the interactive UI mode.
+
+  npx playwright test --project=chromium
+    Runs the tests only on Desktop Chrome.
+
+  npx playwright test example
+    Runs the tests in a specific file.
+
+  npx playwright test --debug
+    Runs the tests in debug mode.
+
+  npx playwright codegen
+    Auto generate tests with Codegen.
+
+We suggest that you begin by typing:
+
+    npx playwright test
+
+
+To open last HTML report run:
+
+  npx playwright show-report   
+
+*folder structure 
+node_modules: all dependency and dev dependency will install in it
+package.json:all install dependency entry will found here
+package-lock.json:detail description of all dependency will found here
+
+test folder:it is use to write automation script
+test-exmaple: sample question script found here,provide playwright 
+
+note  by default all playwright automation script run in headless mode.
+
+how to execute automation with headed mode
+ npx playwright test --headed
+
+ =============================================================
+ 18/7/25
+
+ Locators: it is to find an element on page at any moment
+
+ 1. Id selector: select an element base on id 
+  const elementName=page.locator("id=#idname")
+
+2. class selector: select an element based on class name
+ const elementname=page.locator(".classanme")
+
+ 3. text selector:select an element bases on what text it contain
+ const elementName=page.locator("[text=textformat]")
+
+ 4 css selector : select an element bases on their css property
+ const element\=page.locator("css=buttonid")
+
+ 5 Xpath selector: select an elemen bases on their xpath query:
+ const elementName=page.locator("xpath=//button[text()=submit]");
+ 
