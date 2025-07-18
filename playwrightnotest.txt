@@ -103,3 +103,11 @@ how to execute automation with headed mode
  5 Xpath selector: select an elemen bases on their xpath query:
  const elementName=page.locator("xpath=//button[text()=submit]");
  
+
+ browserContext:
+ browserContext is an instance of brosers or you can say seperate with incognito mode. where it store user session and cookies seperately it is used for authentication 
+ if there is multiple user then an only then we use we do not use it for single user
+
+ *Handling Authentication API(Basic Authentication)
+ -here write automation test script for authorizing user
+ 
