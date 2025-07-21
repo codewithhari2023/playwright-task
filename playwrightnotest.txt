@@ -105,9 +105,28 @@ how to execute automation with headed mode
  
 
  browserContext:
- browserContext is an instance of brosers or you can say seperate with incognito mode. where it store user session and cookies seperately it is used for authentication 
+ browserContext is an instance of browsers or you can say seperate with incognito mode. where it store user session and cookies seperately it is used for authentication 
  if there is multiple user then an only then we use we do not use it for single user
 
  *Handling Authentication API(Basic Authentication)
  -here write automation test script for authorizing user
- 
+======================================================================================================
+21/7/25
+
+Assertion
+-In playwright assertion is use to verify that the application behaves as expected or not during testing they ensure that UI element data are in correct state before or after  performing action
+-plaiywirght provide us built-in assertion through expect( )method,expectmethod provided by plaiywirght/test package
+
+example:
+toBevisible():it will pass the test if element is visible
+toHaveText():it will pass the test if element has text or data in it
+toBeEnable():it will pass the test if element is enabled
+
+await page.pause(): it will pause execution
+
+Custom assertion
+we need to write custom assertion for complex condition and special bussiness logic
+-we can make reusable logic
+-we can use it for dynamic data condition
+
+example: write a logic for custom assertion to ceheck number is than greater than 10 or not

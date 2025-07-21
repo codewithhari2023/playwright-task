@@ -1,0 +1,105 @@
+
+* differance between == and ===
+== : it will check only values and if both are same then it return true.
+Ex: 5==5 true
+Ex: 5=='5' true
+=== : it will check both values as well as its data type and if both are same then it return true.
+Ex: 5==5 true
+Ex: 5=='5' false
+
+*use of exponentiation(**): it will return power of any number
+Ex: Math.pow(5,2) 
+    25
+Ex: Math.pow(5,3)
+    125
+Ex: 5**2
+    25
+Ex: 5**3
+    125
+*for testing to get output we use console only. 
+
+*Callback function: passing a function name as an argument inside another function 
+
+*while writting use only let and const for declaring varaible in js or ts alse don't use var 
+
+
+*Hoisting :
+-it is javascript default behaviour ,which moves variable declaration at top of the page.
+-it happens when we use var keyword.
+
+*differencs between var , let and const keyword.
+
+*var :
+-it create function scope variable.
+-we can use variable before declaration of it.
+-we can reinitialize variable.
+
+*let :
+-it create block variable.
+-we can not use varaible before declaration of it.
+-we can not re-declare variable.
+
+*const : 
+-it create block scope variable.
+-while declaration of varaible we need to initialize it.
+-we can not change const variable value while run time.
+
+*Clouser : 
+-Clouser is a javascript feature where an inner function has access to a varibles from an outer function's scope even after the outer function has finished execution.
+
+-lexical scope means function will execute on the basis its declaration not on the basis of function call.
+
+-Clouser will occure only when we implement one function inside another function.
+
+*Object data type;
+-it allows us to store multiple values with different data type.
+-in object data store in key and value pair formate.
+-to access values outside object we need to write objectName.keyName
+-object data type denoted by {}
+
+may=2,8,10,13,14,21,23,24,26,27,29,30,31.=13 (1133)
+jun=10,12,16,17,18=5 (1666)
+
+*Callback function :
+-passing a function as argument inside another function is called back function.
+-we use this functionality or approach to execute one after another in javascript.
+
+*try and catch : it is use to handle exception in programe.
+-we write code inside try block and if in try block code having any exception then it will thrown by throw method and that exception or error will handle by catch block.
+syntax:
+  try{
+
+  }catch(error){
+
+  }
+
+-try :statment allows to define a block of code to be tested for error while it is being executed.
+-throw : throw statment let you to create custome error.
+-catch : statment lets us to handle error 
+-finally: finally statment let you execute code after try and catch , regardless of the result.
+
+
+*promises in javascript :
+-promises is javascript object that link producing code and consuming code.
+Producing Code : it is code take some time to execute.
+Consuming Code : it is code that must wait for result.
+
+code status :
+Pending: result will be undefine 
+Fullfiled: it will return value.
+Rejected: it will return error.
+
+*Async and Await :
+-async and await makes promises code essier to write.
+-here asyn keyword make a function to return promise.(like producing code)
+-here await keyword make a function to wait for promis.(like consuming code)
+-we always write await inside asyn function.
+
+
+
+
+
+
+
+
+
