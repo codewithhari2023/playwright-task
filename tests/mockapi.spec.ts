@@ -16,7 +16,7 @@ test("mock api", async ({ page }) => {
 test("get request on the role ",async({page})=>{
     await page.route("api/user?role=admin",(route)=>{
         route.fulfill({
-            status:200,
+            status:500,
             contentType:'application/json',
             body:"Internal server Error"
         })
