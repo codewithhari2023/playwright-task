@@ -130,3 +130,47 @@ we need to write custom assertion for complex condition and special bussiness lo
 -we can use it for dynamic data condition
 
 example: write a logic for custom assertion to ceheck number is than greater than 10 or not
+======================================================================================================
+22/7/25
+
+How to configure text according to your choice 
+
+*Hooks 
+ex:
+run setup before logic test
+cleanup code after logic test
+
+Example of Hooks
+beforeAll():run code once before all test in file
+afterAll():run code once after all test in file
+beforeEach():run code everytime before all test in run file
+afterEach():run code everytime after all test in run file
+
+
+how to use Record Features 
+-it provide test script after perfoming  action on webapplication or webahes
+-to start record feature we have page.pause() method in test code
+
+
+*use of annotation
+*use of hooks
+
+
+
+fixtures:
+it is resusable piece of  setup  and teardown logical code  that you can share across  test
+it works like helper function
+playwright provide us built-in fixtures as well as we can create custom fixture
+
+
+API mocking in playwright 
+mocking simulates API responses without hitting the real backend
+
+why mock?
+backend is not ready
+make it more faster
+simulate errors(404,500,403,200)
+to control test data
+
+
+

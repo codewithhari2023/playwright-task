@@ -1,4 +1,3 @@
-import { log } from "console";
 import test from "playwright/test";
 
 test("file handling test",async({page})=>{
