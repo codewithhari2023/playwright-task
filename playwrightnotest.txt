@@ -172,5 +172,33 @@ make it more faster
 simulate errors(404,500,403,200)
 to control test data
 
+=========================================================================================
+23/7/25
+
+*End to End Testing with modularization
+-creating end to end test cases
+-splitting test into reusable module and component
+-data driven test with paramterize
+-CI/CD integration with git and github
+
+-In end  to end testing we verify that the complete function of software  application will work or  not from  start to end
+-we ensure that integrated component work together seamlessly
+-in this we validate the entire workflow from user perspective
+
+ex: real example 
+     user will login ===>product will add to cart=>checkout
+Task:write login test case for saucedemo.com
+
+Data driven testing with paramterize:
+-pass multiple user credential for login test
+
+Ci/CD integration with Git and github
+-in thus we configure git and github with playwirght
+there are two many ways to use git and github with playwright
+while creating playwright project provide yes option for git configuration
+2 yml file in existing project and write configuartion setting in it
+create proper folder structure for yml file
+.github/workflow/plaiywirght.yml
 
 
+create a online repo
